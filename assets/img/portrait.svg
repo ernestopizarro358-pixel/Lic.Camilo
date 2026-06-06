@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 640" role="img" aria-label="Retrato de Lic. Camilo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#F3F0EB"/>
+      <stop offset="0.55" stop-color="#DCE3D8"/>
+      <stop offset="1" stop-color="#C8D1C5"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#FAF8F5" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FAF8F5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="520" height="640" fill="url(#bg)"/>
+
+  <!-- Aros concéntricos suaves -->
+  <g fill="none" stroke="#8FA89A" stroke-opacity="0.28">
+    <circle cx="260" cy="248" r="172"/>
+    <circle cx="260" cy="248" r="128"/>
+    <circle cx="260" cy="248" r="84"/>
+  </g>
+
+  <!-- Disco calmo central -->
+  <circle cx="260" cy="248" r="84" fill="#FAF8F5" fill-opacity="0.55"/>
+  <circle cx="260" cy="248" r="300" fill="url(#halo)"/>
+
+  <!-- Horizonte sutil -->
+  <line x1="60" y1="470" x2="460" y2="470" stroke="#8FA89A" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- Monograma -->
+  <text x="260" y="278" text-anchor="middle"
+        font-family="Playfair Display, Georgia, serif" font-size="120" font-style="italic"
+        fill="#4E6B5C" fill-opacity="0.92">C</text>
+
+  <text x="260" y="528" text-anchor="middle"
+        font-family="Inter, Segoe UI, sans-serif" font-size="22" letter-spacing="6"
+        fill="#4E6B5C" fill-opacity="0.85">LIC. CAMILO</text>
+  <text x="260" y="558" text-anchor="middle"
+        font-family="Inter, Segoe UI, sans-serif" font-size="14" letter-spacing="2"
+        fill="#6B7280">Psicólogo · Sucre</text>
+</svg>
